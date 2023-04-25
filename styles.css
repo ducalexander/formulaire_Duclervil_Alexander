@@ -1,0 +1,88 @@
+body{
+    background-color: gray;/* permet un font color*/
+    padding: 20px;
+}
+.h1{
+    background-color: yellow;/* permet un font color*/
+    border-radius: 20% 20% 20% 20%;/*permet d'arrondir les bords*/
+    width:40%;/* permet de reglé la largeur*/
+    text-align: center;/* permet de placer le texte */
+    position: absolute;
+    left: 30px;
+}
+.h2{
+    background-color: aqua;/* permet un font color*/
+    border-radius: 20% 20% 20% 20%;/*permet d'arrondir les bords*/
+    padding-left: 20px;
+    position: absolute;
+    right: 550px;
+    bottom: 450px;
+}
+.h1-h2{
+    background-color: ;/* permet un font color*/
+    width: 60%;/* permet de reglé la largeur*/
+    padding: 40px;
+}
+.principale{
+    background-color: black;/* permet un font color*/
+    width: 100%;/* permet de reglé la largeur*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /*permet de les ranger en 2 colone */
+    gap: 20px;/* la distance entre les colones*/
+    padding: 20px;
+    border-radius: 10% 10% 10% 10%;/*permet d'arrondir les bords*/
+}
+.separe{
+    background-color:violet;/* permet un font color*/
+    display:flex;
+    flex-direction: column; /*permet de les ranger en colone*/
+    padding: 20px;
+    border-radius: 10% 10% 10% 10%;/*permet d'arrondir les bords*/
+}
+.haut{
+    background-color: yellow;/* permet un font color*/
+    margin-bottom: 20px;/*permet de laisser une marge entre la div et le haut*/
+    margin-top: 20px;/*permet de laisser une marge entre la div et le bas */
+    border-radius: 10% 10% 10% 10%;/*permet d'arrondir les bords*/
+    padding: 20px;
+}
+.bas{
+    background-color:yellow;/* permet un font color*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10% 10% 10% 10%;/*permet d'arrondir les bords*/
+    padding: 20px;
+}
+.description{
+    background-color: red;/* permet un font color*/
+    border-radius: 20% 20% 20% 20%;/*permet d'arrondir les bords*/
+    width: 80%;/* permet de reglé la largeur*/
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px ;
+}
+.taille{
+    width: 68%;/* permet de reglé la largeur*/
+    padding: 70px;/* gère la taille de l'encedrer de reponse*/
+    margin-top:;
+}
+.vert{
+    background-color: green; /* permet un font color*/
+    border-radius: 20px 20px 20px 20px;/*permet d'arrondir les bords*/
+    padding: 10px; 
+    position: absolute;
+    margin-top: 4px;
+    margin-bottom:20px;
+}
+.bleu{
+    background-color: blue;/* permet un font color*/
+    border-radius: 20px 20px 20px 20px;/*permet d'arrondir les bords*/
+    padding: 20px;
+    margin-left: 200px;/* permet reglé la distance de gauche*/
+}
+.gris{
+    background-color: gray;/* permet un font color*/
+    border-radius: 20px 20px 20px 20px;/*permet d'arrondir les bords*/
+    padding: 20px;
+    margin-bottom: 10px;
+}
